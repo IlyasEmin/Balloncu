@@ -1,12 +1,19 @@
-class Location{
-    constructor(pX,pY){
-        this.x = pX;
-        this.y = pY;
 
+
+
+// tarif
+class Location {
+
+    constructor(pLeft, pTop) {
+        this.left = pLeft;
+        this.top = pTop;
     }
-
-    toString(){return this.x + " , " + this.y;}
-    getLeft(){return this.x;}
-    getTop(){return this.y;}
-
 }
+
+
+// örnek
+
+const lo1 = new Location(300, 450);
+const lo2 = new Location(100, -400);
+
+//
